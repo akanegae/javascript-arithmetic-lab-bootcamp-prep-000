@@ -28,20 +28,9 @@ function dec(a) {
 }
 
 function makeInt(n) {
-  parseInt = (n, 10);
-  return n;
+  return parseInt(n, 10)
 }
 
-function parseInt(){
-  parseInt = ('0x2328', 10);
-}
-
-function isNaN(){
-  if (isNaN('sldkjflksjf')) {
-    return true;
-  }
-}
-
-function preserveDecimal(n, 10) {
-  parseFloat = ('2,222', 10);
+function preserveDecimal(n) {
+  return parseFloat(n)
 }
